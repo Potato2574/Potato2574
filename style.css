@@ -1,0 +1,146 @@
+h2{
+    border-style: groove;
+    border-color: aqua;
+    border-radius: 15px;
+    background: linear-gradient(white,green);
+    text-align: center;
+    font-weight: 1000;
+}
+
+h5{
+    color: aquamarine;
+    border-style: groove;
+    border-color: aliceblue;
+    font-weight: 1000;
+}
+#somot{
+    color: rgb(204, 66, 66);
+    border-style: groove;
+    border-color: antiquewhite;
+    background: linear-gradient(to right,blue, black);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+ol{
+    color: rgb(204, 66, 66);
+    border-style: groove;
+    border-color: antiquewhite;
+    background: linear-gradient(to right,green, black);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+dl{
+    color: rgb(204, 66, 66);
+    border-style: groove;
+    border-color: antiquewhite;
+    background: linear-gradient(to left,grey, white);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#tr{
+    background: linear-gradient(to right,green, yellow);
+    
+    font-family: sans-serif;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+    
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    border-right-width: 15px;
+    border-left-width: 20px;
+    border-top-width: 12px;
+    border-bottom-width: 10px;
+}
+
+#fi{
+    background: linear-gradient(to right,red, blue);
+    
+    font-family: sans-seif, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 700;
+    text-decoration: dashed;
+    
+    border-style: solid;
+    border-color: black;
+    border-radius: 5cm;
+    padding: 3cm;
+    border-top-color: black;
+    border-right-width: 15px;
+    border-left-width: 20px;
+    border-top-width: 12px;
+    border-bottom-width: 10px;
+}
+
+#se{
+    background: linear-gradient(to right,pink, violet);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bolder;
+
+    border-style: groove;
+    border-color: black;
+    padding: 15px;
+    border-right-width: 15px;
+    border-left-width: 20px;
+    border-top-width: 12px;
+    border-bottom-width: 10px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(./Images/Cucu.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#box1{
+    color: black;
+    font-weight: 1000;
+    font-size: large;
+    border-style: solid;
+    border-color: red;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    padding: 30px;
+    position: fixed;
+    top: 10%;
+    left: 29%;
+}
+
+#box2{
+    color: black;
+    font-weight: 1000;
+    font-size: large;
+    border-color: red;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: pink;
+    margin-top: 10px;
+    padding: 30px;
+    position: fixed;
+    top: 12%;
+    left: 64%;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: green;
+}
